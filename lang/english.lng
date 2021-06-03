@@ -1,0 +1,76 @@
+﻿##grflangid 0x01
+# English lng file
+
+STR_GRF_NAME		:PURR Universal Rainbow Rails {VERSION}
+STR_GRF_DESC		:5 universal rails with the power of the rainbow.{}Mainly useful for marking purposes,{}but I believe you will find other uses too.{}nicorns not included.{}{}Brought to you by V453000{}www.openttdcoop.org
+
+STR_RAIL			:Railway
+STR_ELRL			:Electrified Railway
+STR_MONO			:Monorail
+STR_MGLV			:Maglev
+
+STR_UNI1			:CLEAN purr
+STR_UNI2			:{GOLD}YELLOW purr
+STR_UNI3			:{RED}RED purr
+STR_UNI4			:{BLUE}BLUE purr
+STR_UNI5			:{GREEN}GREEN purr
+
+STR_PARAM_SIGNALS:Semaphore Signals
+STR_PARAM_SIGNALS_DESC:Toggle semaphore signals override.
+STR_PARAM_SIGNALS_OFF:Disabled
+STR_PARAM_SIGNALS_ON:Enabled
+
+STR_PARAM_TUNNELS:Railtype tunnels
+STR_PARAM_TUNNELS_DESC:Toggle whether PURR tunnels should be used. When OFF, the base set RAIL tunnels will be used.
+STR_PARAM_TUNNELS_OFF:Disabled
+STR_PARAM_TUNNELS_ON:Enabled
+
+STR_PARAM_SPEED_LIMIT_1:{SILVER}CLEAN{LTBLUE} PURR Speed limit (kmh)
+STR_PARAM_SPEED_LIMIT_1_DESC:Set speed limit for {SILVER}CLEAN{LTBLUE} PURR. Set 0 for no limit.
+
+STR_PARAM_SPEED_LIMIT_2:{GOLD}YELLOW{LTBLUE} PURR Speed limit (kmh)
+STR_PARAM_SPEED_LIMIT_2_DESC:Set speed limit for {GOLD}YELLOW{LTBLUE} PURR. Set 0 for no limit.
+
+STR_PARAM_SPEED_LIMIT_3:{RED}RED{LTBLUE} PURR Speed limit (kmh)
+STR_PARAM_SPEED_LIMIT_3_DESC:Set speed limit for {RED}RED{LTBLUE} PURR. Set 0 for no limit.
+
+STR_PARAM_SPEED_LIMIT_4:{BLUE}BLUE{LTBLUE} PURR Speed limit (kmh)
+STR_PARAM_SPEED_LIMIT_4_DESC:Set speed limit for {BLUE}BLUE{LTBLUE} PURR. Set 0 for no limit.
+
+STR_PARAM_SPEED_LIMIT_5:{GREEN}GREEN{LTBLUE} PURR Speed limit (kmh)
+STR_PARAM_SPEED_LIMIT_5_DESC:Set speed limit for {GREEN}GREEN{LTBLUE} PURR. Set 0 for no limit.
+
+
+
+STR_PARAM_INTRO_DATE_1:{SILVER}CLEAN{LTBLUE} PURR Introduction year
+STR_PARAM_INTRO_DATE_1_DESC:Set introduction year for {SILVER}CLEAN{LTBLUE} PURR.
+
+STR_PARAM_INTRO_DATE_2:{GOLD}YELLOW{LTBLUE} PURR Introduction year
+STR_PARAM_INTRO_DATE_2_DESC:Set introduction year for {GOLD}YELLOW{LTBLUE} PURR.
+
+STR_PARAM_INTRO_DATE_3:{RED}RED{LTBLUE} PURR Introduction year
+STR_PARAM_INTRO_DATE_3_DESC:Set introduction year for {RED}RED{LTBLUE} PURR.
+
+STR_PARAM_INTRO_DATE_4:{BLUE}BLUE{LTBLUE} PURR Introduction year
+STR_PARAM_INTRO_DATE_4_DESC:Set introduction year for {BLUE}BLUE{LTBLUE} PURR.
+
+STR_PARAM_INTRO_DATE_5:{GREEN}GREEN{LTBLUE} PURR Introduction year
+STR_PARAM_INTRO_DATE_5_DESC:Set introduction year for {GREEN}GREEN{LTBLUE} PURR.
+
+
+
+
+STR_PARAM_CONST_COST_1:{SILVER}CLEAN{LTBLUE} PURR construction cost
+STR_PARAM_CONST_COST_1_DESC:Set construction cost multiplier for {SILVER}CLEAN{LTBLUE} PURR.
+
+STR_PARAM_CONST_COST_2:{GOLD}YELLOW{LTBLUE} PURR construction cost
+STR_PARAM_CONST_COST_2_DESC:Set construction cost multiplier for {GOLD}YELLOW{LTBLUE} PURR.
+
+STR_PARAM_CONST_COST_3:RED{LTBLUE} PURR construction cost
+STR_PARAM_CONST_COST_3_DESC:Set construction cost multiplier for RED PURR.
+
+STR_PARAM_CONST_COST_4:{BLUE}BLUE{LTBLUE} PURR construction cost
+STR_PARAM_CONST_COST_4_DESC:Set construction cost multiplier for {BLUE}BLUE{LTBLUE} PURR.
+
+STR_PARAM_CONST_COST_5:{GREEN}GREEN{LTBLUE} PURR construction cost
+STR_PARAM_CONST_COST_5_DESC:Set construction cost multiplier for {GREEN}GREEN{LTBLUE} PURR.

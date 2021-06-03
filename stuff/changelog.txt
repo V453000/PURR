@@ -1,0 +1,16 @@
+0.0.5
+- fixes to 8bpp mode of PURR, made it look like the new tracks from version 0.0.4
+
+0.0.4
+- 32bpp PURR
+- if you force 8bpp blitter in OpenTTD, it should look like it used to.
+- railtype tunnels, best compatible with BRIX 0.0.2
+- tunnels can be disabled by parameters
+Recommended to be used with BRIX 0.0.2 and NUTS
+
+0.0.2 - 0.0.3
+Someone has been too lazy to write changelog and now he does not remember.
+
+0.0.1
+Here come the new rails!
+More technical improvements, parameters and other things to come later.
