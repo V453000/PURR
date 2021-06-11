@@ -1,15 +1,15 @@
-spriteset(signals_block_green, 	"gfx/_signals.png") {signals(300,0)}	
-spriteset(signals_block_red, 	"gfx/_signals.png") {signals(300,1)}	
-spriteset(signals_entry_green, 	"gfx/_signals.png") {signals(300,2)}	
-spriteset(signals_entry_red, 	"gfx/_signals.png") {signals(300,3)}	
-spriteset(signals_exit_green, 	"gfx/_signals.png") {signals(300,4)}	
-spriteset(signals_exit_red, 	"gfx/_signals.png") {signals(300,5)}	
-spriteset(signals_combo_green, 	"gfx/_signals.png") {signals(300,6)}	
-spriteset(signals_combo_red, 	"gfx/_signals.png") {signals(300,7)}	
-spriteset(signals_2wayPBS_green, "gfx/_signals.png") {signals(300,8)}	
-spriteset(signals_2wayPBS_red, 	"gfx/_signals.png") {signals(300,9)}	
-spriteset(signals_1wayPBS_green, "gfx/_signals.png") {signals(300,10)}	
-spriteset(signals_1wayPBS_red, 	"gfx/_signals.png") {signals(300,11)}	
+spriteset(signals_block_green, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 0)}	
+spriteset(signals_block_red, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 1)}	
+spriteset(signals_entry_green, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 2)}	
+spriteset(signals_entry_red, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 3)}	
+spriteset(signals_exit_green, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 4)}	
+spriteset(signals_exit_red, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 5)}	
+spriteset(signals_combo_green, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 6)}	
+spriteset(signals_combo_red, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 7)}	
+spriteset(signals_2wayPBS_green, "gfx/8bpp/signals-8bpp.png") {signals(300, 8)}	
+spriteset(signals_2wayPBS_red, 	 "gfx/8bpp/signals-8bpp.png") {signals(300, 9)}	
+spriteset(signals_1wayPBS_green, "gfx/8bpp/signals-8bpp.png") {signals(300,10)}	
+spriteset(signals_1wayPBS_red, 	 "gfx/8bpp/signals-8bpp.png") {signals(300,11)}	
 
 switch(FEAT_RAILTYPES, SELF, signal_switch_block, (extra_callback_info2 & 0x000000FF)) {
 	0: signals_block_red;

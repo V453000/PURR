@@ -74,3 +74,17 @@ STR_PARAM_CONST_COST_4_DESC:Set construction cost multiplier for {BLUE}BLUE{LTBL
 
 STR_PARAM_CONST_COST_5:{GREEN}GREEN{LTBLUE} PURR construction cost
 STR_PARAM_CONST_COST_5_DESC:Set construction cost multiplier for {GREEN}GREEN{LTBLUE} PURR.
+
+STR_PARAM_GRASS_COLOUR			:Grass colour
+STR_PARAM_GRASS_COLOUR_DESC		:Forces the colour of grass to desired climate.
+STR_PARAM_GRASS_COLOUR_AUTO		:Automatic - by climate
+STR_PARAM_GRASS_COLOUR_TEMP  	:Temperate Grass
+STR_PARAM_GRASS_COLOUR_ARCT		:Arctic Grass
+STR_PARAM_GRASS_COLOUR_TROP		:Tropic Grass
+STR_PARAM_GRASS_COLOUR_TOY		:Toyland Ash
+
+STR_PARAM_SNOW			:Snow/Desert colour
+STR_PARAM_SNOW_DESC		:Changes snow/desert and related road/track/tunnel/road crossing sprites.
+STR_PARAM_SNOW_AUTO		:Automatic - by climate
+STR_PARAM_SNOW_SNOW		:Snow
+STR_PARAM_SNOW_DESERT	:Desert

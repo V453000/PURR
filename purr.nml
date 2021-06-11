@@ -147,6 +147,38 @@ grf {
       def_value: 35;
     }
   }
+  param 17 {
+      param_grass_colour {
+          type: int;
+          name: string(STR_PARAM_GRASS_COLOUR);
+          desc: string(STR_PARAM_GRASS_COLOUR_DESC);
+          min_value: 0;
+          max_value: 4;
+          def_value: 0;
+              names: {
+                  0: string(STR_PARAM_GRASS_COLOUR_AUTO);
+                  1: string(STR_PARAM_GRASS_COLOUR_TEMP);
+                  2: string(STR_PARAM_GRASS_COLOUR_ARCT);
+                  3: string(STR_PARAM_GRASS_COLOUR_TROP);
+                  4: string(STR_PARAM_GRASS_COLOUR_TOY);
+              };
+          }
+    }
+  param 18 {
+	param_snow_colour {
+		type: int;
+		name: string(STR_PARAM_SNOW);
+		desc: string(STR_PARAM_SNOW_DESC);
+		min_value: 0;
+		max_value: 2;
+		def_value: 0;
+			names: {
+ 				0: string(STR_PARAM_SNOW_AUTO);
+ 				1: string(STR_PARAM_SNOW_SNOW);
+				2: string(STR_PARAM_SNOW_DESERT);
+			};
+		}
+	}
   
 
 
@@ -186,17 +218,25 @@ if (grf_future_status("\42\4B\54\62")) {
 //------------------------------------------------------------------------------------------------------------------------------------------------
 
 //#include src-includes/railtype_univrail1_graphics.nml
+
+/*
+
 //#include src-includes/railtype_univrail2_graphics.nml
 //#include src-includes/railtype_univrail3_graphics.nml
 //#include src-includes/railtype_univrail4_graphics.nml
 //#include src-includes/railtype_univrail5_graphics.nml
-	
+
+*/
 //------------------------------------------------------------------------------------------------------------------------------------------------
 //
 //------------------------------------------------------------------------------------------------------------------------------------------------
 
 //#include src-includes/railtype_univrail1_item.nml
+
+/*
 //#include src-includes/railtype_univrail2_item.nml
 //#include src-includes/railtype_univrail3_item.nml
 //#include src-includes/railtype_univrail4_item.nml
 //#include src-includes/railtype_univrail5_item.nml
+
+*/
