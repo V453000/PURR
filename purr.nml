@@ -34,120 +34,7 @@ grf {
         };
     }
   }
-
   param 2 {
-    param_speed_limit_1{
-      type: int;
-      name: string(STR_PARAM_SPEED_LIMIT_1);
-      desc: string(STR_PARAM_SPEED_LIMIT_1_DESC);
-    }
-  }
-  param 3 {
-    param_speed_limit_2{
-      type: int;
-      name: string(STR_PARAM_SPEED_LIMIT_2);
-      desc: string(STR_PARAM_SPEED_LIMIT_2_DESC);
-    }
-  }
-  param 4 {
-    param_speed_limit_3{
-      type: int;
-      name: string(STR_PARAM_SPEED_LIMIT_3);
-      desc: string(STR_PARAM_SPEED_LIMIT_3_DESC);
-    }
-  }
-  param 5 {
-    param_speed_limit_4{
-      type: int;
-      name: string(STR_PARAM_SPEED_LIMIT_4);
-      desc: string(STR_PARAM_SPEED_LIMIT_4_DESC);
-    }
-  }
-  param 6 {
-    param_speed_limit_5{
-      type: int;
-      name: string(STR_PARAM_SPEED_LIMIT_5);
-      desc: string(STR_PARAM_SPEED_LIMIT_5_DESC);
-    }
-  }
-
-  param 7 {
-    param_intro_date_1{
-      type: int;
-      name: string(STR_PARAM_INTRO_DATE_1);
-      desc: string(STR_PARAM_INTRO_DATE_1_DESC);
-    }
-  }
-  param 8 {
-    param_intro_date_2{
-      type: int;
-      name: string(STR_PARAM_INTRO_DATE_2);
-      desc: string(STR_PARAM_INTRO_DATE_2_DESC);
-    }
-  }
-  param 9 {
-    param_intro_date_3{
-      type: int;
-      name: string(STR_PARAM_INTRO_DATE_3);
-      desc: string(STR_PARAM_INTRO_DATE_3_DESC);
-    }
-  }
-  param 10 {
-    param_intro_date_4{
-      type: int;
-      name: string(STR_PARAM_INTRO_DATE_4);
-      desc: string(STR_PARAM_INTRO_DATE_4_DESC);
-    }
-  }
-  param 11 {
-    param_intro_date_5{
-      type: int;
-      name: string(STR_PARAM_INTRO_DATE_5);
-      desc: string(STR_PARAM_INTRO_DATE_5_DESC);
-    }
-  }
-
-  param 12 {
-    param_const_cost_1{
-      type: int;
-      name: string(STR_PARAM_CONST_COST_1);
-      desc: string(STR_PARAM_CONST_COST_1_DESC);
-      def_value: 20;
-    }
-  }
-  param 13 {
-    param_const_cost_2{
-      type: int;
-      name: string(STR_PARAM_CONST_COST_2);
-      desc: string(STR_PARAM_CONST_COST_2_DESC);
-      def_value: 35;
-    }
-  }
-  param 14 {
-    param_const_cost_3{
-      type: int;
-      name: string(STR_PARAM_CONST_COST_3);
-      desc: string(STR_PARAM_CONST_COST_3_DESC);
-      def_value: 35;
-    }
-  }
-  param 15 {
-    param_const_cost_4{
-      type: int;
-      name: string(STR_PARAM_CONST_COST_4);
-      desc: string(STR_PARAM_CONST_COST_4_DESC);
-      def_value: 35;
-    }
-  }
-  param 16 {
-    param_const_cost_5{
-      type: int;
-      name: string(STR_PARAM_CONST_COST_5);
-      desc: string(STR_PARAM_CONST_COST_5_DESC);
-      def_value: 35;
-    }
-  }
-  param 17 {
       param_grass_colour {
           type: int;
           name: string(STR_PARAM_GRASS_COLOUR);
@@ -164,7 +51,7 @@ grf {
               };
           }
     }
-  param 18 {
+  param 3 {
 	param_snow_colour {
 		type: int;
 		name: string(STR_PARAM_SNOW);
@@ -179,6 +66,124 @@ grf {
 			};
 		}
 	}
+
+
+
+
+
+  param 4 {
+    param_speed_limit_1{
+      type: int;
+      name: string(STR_PARAM_SPEED_LIMIT_1);
+      desc: string(STR_PARAM_SPEED_LIMIT_1_DESC);
+    }
+  }
+  param 5 {
+    param_speed_limit_2{
+      type: int;
+      name: string(STR_PARAM_SPEED_LIMIT_2);
+      desc: string(STR_PARAM_SPEED_LIMIT_2_DESC);
+    }
+  }
+  param 6 {
+    param_speed_limit_3{
+      type: int;
+      name: string(STR_PARAM_SPEED_LIMIT_3);
+      desc: string(STR_PARAM_SPEED_LIMIT_3_DESC);
+    }
+  }
+  param 7 {
+    param_speed_limit_4{
+      type: int;
+      name: string(STR_PARAM_SPEED_LIMIT_4);
+      desc: string(STR_PARAM_SPEED_LIMIT_4_DESC);
+    }
+  }
+  param 8 {
+    param_speed_limit_5{
+      type: int;
+      name: string(STR_PARAM_SPEED_LIMIT_5);
+      desc: string(STR_PARAM_SPEED_LIMIT_5_DESC);
+    }
+  }
+
+  param 9 {
+    param_intro_date_1{
+      type: int;
+      name: string(STR_PARAM_INTRO_DATE_1);
+      desc: string(STR_PARAM_INTRO_DATE_1_DESC);
+    }
+  }
+  param 10 {
+    param_intro_date_2{
+      type: int;
+      name: string(STR_PARAM_INTRO_DATE_2);
+      desc: string(STR_PARAM_INTRO_DATE_2_DESC);
+    }
+  }
+  param 11 {
+    param_intro_date_3{
+      type: int;
+      name: string(STR_PARAM_INTRO_DATE_3);
+      desc: string(STR_PARAM_INTRO_DATE_3_DESC);
+    }
+  }
+  param 12 {
+    param_intro_date_4{
+      type: int;
+      name: string(STR_PARAM_INTRO_DATE_4);
+      desc: string(STR_PARAM_INTRO_DATE_4_DESC);
+    }
+  }
+  param 13 {
+    param_intro_date_5{
+      type: int;
+      name: string(STR_PARAM_INTRO_DATE_5);
+      desc: string(STR_PARAM_INTRO_DATE_5_DESC);
+    }
+  }
+
+  param 14 {
+    param_const_cost_1{
+      type: int;
+      name: string(STR_PARAM_CONST_COST_1);
+      desc: string(STR_PARAM_CONST_COST_1_DESC);
+      def_value: 20;
+    }
+  }
+  param 15 {
+    param_const_cost_2{
+      type: int;
+      name: string(STR_PARAM_CONST_COST_2);
+      desc: string(STR_PARAM_CONST_COST_2_DESC);
+      def_value: 35;
+    }
+  }
+  param 16 {
+    param_const_cost_3{
+      type: int;
+      name: string(STR_PARAM_CONST_COST_3);
+      desc: string(STR_PARAM_CONST_COST_3_DESC);
+      def_value: 35;
+    }
+  }
+  param 17 {
+    param_const_cost_4{
+      type: int;
+      name: string(STR_PARAM_CONST_COST_4);
+      desc: string(STR_PARAM_CONST_COST_4_DESC);
+      def_value: 35;
+    }
+  }
+  param 18 {
+    param_const_cost_5{
+      type: int;
+      name: string(STR_PARAM_CONST_COST_5);
+      desc: string(STR_PARAM_CONST_COST_5_DESC);
+      def_value: 35;
+    }
+  }
+  
   
 
 
