@@ -1,55 +1,95 @@
-spriteset(univrail2_overlays,       "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {overlay_x1_8bpp(3)}	
-spriteset(univrail2_underlays,      "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {underlay_x1_8bpp(3)}	
-spriteset(univrail2_tunnels,        "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnels_x1_8bpp(3)}	
-spriteset(univrail2_tunnel_overlay, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnel_overlay_x1_8bpp(3)}	
-spriteset(univrail2_tunnels_bk,     "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnels_x1_8bpp(3)}	
-spriteset(univrail2_road_crossing,  "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {road_crossing_x1_8bpp(3)}
+spriteset(univrail2_overlays,       "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {overlay_x1_8bpp(0)}	
+spriteset(univrail2_underlays,      "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {underlay_x1_8bpp(0)}	
+spriteset(univrail2_road_crossing,  "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {road_crossing_x1_8bpp(0)}
 
 
-spriteset(univrail2_bridge_surfaces_original,   "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {bridge_surfaces_x1_8bpp(3)}	
-spriteset(univrail2_bridge_surfaces_newbridges, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {bridge_surfaces_x1_8bpp(3)}	
+spriteset(univrail2_bridge_surfaces_original,   "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {bridge_surfaces_x1_8bpp(0)}	
+spriteset(univrail2_bridge_surfaces_newbridges, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {bridge_surfaces_x1_8bpp(0)}	
 
-alternative_sprites(univrail2_overlays,                      ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){overlay_x4        (3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_underlays,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){underlay_x4       (3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnels,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4        (3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4 (3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk,                    ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4        (3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_road_crossing,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){road_crossing_x4  (3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_bridge_surfaces_original,      ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){bridge_surfaces_x4(3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_bridge_surfaces_newbridges,    ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){bridge_surfaces_x4(3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
+alternative_sprites(univrail2_overlays,                      ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){overlay_x4        (0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_underlays,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){underlay_x4       (0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_road_crossing,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){road_crossing_x4  (0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_bridge_surfaces_original,      ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){bridge_surfaces_x4(0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_bridge_surfaces_newbridges,    ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){bridge_surfaces_x4(0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
 
-alternative_sprites(univrail2_overlays,                      ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){overlay_x1        (3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_underlays,                     ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){underlay_x1       (3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnels,                       ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1        (3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay,                ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1 (3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk,                    ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1        (3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_road_crossing,                 ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){road_crossing_x1  (3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_bridge_surfaces_original,      ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){bridge_surfaces_x1(3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_bridge_surfaces_newbridges,    ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){bridge_surfaces_x1(3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
+alternative_sprites(univrail2_overlays,                      ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){overlay_x1        (0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_underlays,                     ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){underlay_x1       (0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_road_crossing,                 ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){road_crossing_x1  (0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_bridge_surfaces_original,      ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){bridge_surfaces_x1(0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_bridge_surfaces_newbridges,    ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){bridge_surfaces_x1(0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
 
-alternative_sprites(univrail2_overlays,                      ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){overlay_x4        (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_underlays,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){underlay_x4       (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnels,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4        (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4 (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk,                    ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4        (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_road_crossing,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){road_crossing_x4  (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_bridge_surfaces_original,      ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){bridge_surfaces_x4(3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_bridge_surfaces_newbridges,    ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){bridge_surfaces_x4(3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
+alternative_sprites(univrail2_overlays,                      ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){overlay_x4        (0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_underlays,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){underlay_x4       (0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_road_crossing,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){road_crossing_x4  (0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_bridge_surfaces_original,      ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){bridge_surfaces_x4(0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_bridge_surfaces_newbridges,    ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){bridge_surfaces_x4(0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+
+// TEMPERATE GRASS
+spriteset(          univrail2_TEMPERATE_tunnels,        "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(0)}
+spriteset(          univrail2_TEMPERATE_tunnel_overlay, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnel_overlay_x1_8bpp(0)}
+spriteset(          univrail2_TEMPERATE_tunnels_bk,     "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(0)}
+alternative_sprites(univrail2_TEMPERATE_tunnels,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnel_overlay,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4                (0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnels_bk,                    ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnels,                       ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnel_overlay,                ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1               (0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnels_bk,                    ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnels,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnel_overlay,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4                 (0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_TEMPERATE_tunnels_bk,                    ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+// ARCTIC GRASS
+spriteset(          univrail2_ARCTIC_tunnels,           "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(1)}
+spriteset(          univrail2_ARCTIC_tunnel_overlay,    "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnel_overlay_x1_8bpp(1)}
+spriteset(          univrail2_ARCTIC_tunnels_bk,        "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(1)}
+alternative_sprites(univrail2_ARCTIC_tunnels,                          ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (1,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnel_overlay,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4                (1,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnels_bk,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (1,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnels,                          ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (1,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnel_overlay,                   ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1               (1,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnels_bk,                       ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (1,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnels,                          ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (1,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnel_overlay,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4                 (1,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_ARCTIC_tunnels_bk,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (1,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+// TROPIC GRASS
+spriteset(          univrail2_TROPIC_tunnels,           "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(2)}
+spriteset(          univrail2_TROPIC_tunnel_overlay,    "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnel_overlay_x1_8bpp(2)}
+spriteset(          univrail2_TROPIC_tunnels_bk,        "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(2)}
+alternative_sprites(univrail2_TROPIC_tunnels,                          ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (2,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnel_overlay,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4                (2,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnels_bk,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (2,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnels,                          ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (2,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnel_overlay,                   ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1               (2,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnels_bk,                       ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (2,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnels,                          ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (2,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnel_overlay,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4                 (2,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_TROPIC_tunnels_bk,                       ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (2,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+// TOYLAND GRASS
+spriteset(          univrail2_TOYLAND_tunnels,          "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(3)}
+spriteset(          univrail2_TOYLAND_tunnel_overlay,   "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnel_overlay_x1_8bpp(3)}
+spriteset(          univrail2_TOYLAND_tunnels_bk,       "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png")        {tunnels_x1_8bpp(3)}
+alternative_sprites(univrail2_TOYLAND_tunnels,                         ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (3,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnel_overlay,                  ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4                (3,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnels_bk,                      ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4                       (3,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnels,                         ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (3,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnel_overlay,                  ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1               (3,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnels_bk,                      ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1                      (3,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnels,                         ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnel_overlay,                  ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4                 (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_TOYLAND_tunnels_bk,                      ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4                        (3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
 
 
 
 
+spriteset(univrail2_road_crossing_stuff_cars_go, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {road_crossing_x1xxx_8bpp(0,0)}
+spriteset(univrail2_road_crossing_stuff_trains_go, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {road_crossing_x1xxx_8bpp(8,0)}
+alternative_sprites(univrail2_road_crossing_stuff_cars_go,   ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){road_crossing_x4xxx  (0,0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_road_crossing_stuff_trains_go, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){road_crossing_x4xxx  (8,0,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
 
-spriteset(univrail2_road_crossing_stuff_cars_go, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png")        {road_crossing_x1xxx_8bpp(0,3)}
-spriteset(univrail2_road_crossing_stuff_trains_go, "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png")      {road_crossing_x1xxx_8bpp(8,3)}
-alternative_sprites(univrail2_road_crossing_stuff_cars_go,   ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   {road_crossing_x4xxx  (0,3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_road_crossing_stuff_trains_go, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP)   {road_crossing_x4xxx  (8,3,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
+alternative_sprites(univrail2_road_crossing_stuff_cars_go,   ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){road_crossing_x1xxx  (0,0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_road_crossing_stuff_trains_go, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){road_crossing_x1xxx  (8,0,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
 
-alternative_sprites(univrail2_road_crossing_stuff_cars_go,   ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  {road_crossing_x1xxx  (0,3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_road_crossing_stuff_trains_go, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP)  {road_crossing_x1xxx  (8,3,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-
-alternative_sprites(univrail2_road_crossing_stuff_cars_go,   ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    {road_crossing_x4xxx  (0,3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_road_crossing_stuff_trains_go, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP)    {road_crossing_x4xxx  (8,3,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
+alternative_sprites(univrail2_road_crossing_stuff_cars_go,   ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){road_crossing_x4xxx  (0,0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_road_crossing_stuff_trains_go, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){road_crossing_x4xxx  (8,0,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
 
 
 switch(FEAT_RAILTYPES, SELF, univrail2_road_crossing_state, level_crossing_status){
@@ -58,51 +98,109 @@ switch(FEAT_RAILTYPES, SELF, univrail2_road_crossing_state, level_crossing_statu
 }
 
 
-spriteset(          univrail2_tunnels_snow,                    "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnels_x1_8bpp(4)}	
-spriteset(          univrail2_tunnels_desert,                  "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnels_x1_8bpp(5)}	
-spriteset(          univrail2_tunnel_overlay_snow,             "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnel_overlay_x1_8bpp(4)}	
-spriteset(          univrail2_tunnel_overlay_desert,           "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnel_overlay_x1_8bpp(5)}
-spriteset(          univrail2_tunnels_bk_snow,                 "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnels_x1_8bpp(4)}	
-spriteset(          univrail2_tunnels_bk_desert,               "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row00_col00.png") {tunnels_x1_8bpp(5)}	
+spriteset(          univrail2_tunnels_snow,                    "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnels_x1_8bpp(4)}	
+spriteset(          univrail2_tunnels_desert,                  "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnels_x1_8bpp(5)}	
+spriteset(          univrail2_tunnel_overlay_snow,             "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnel_overlay_x1_8bpp(4)}	
+spriteset(          univrail2_tunnel_overlay_desert,           "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnel_overlay_x1_8bpp(5)}
+spriteset(          univrail2_tunnels_bk_snow,                 "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnels_x1_8bpp(4)}	
+spriteset(          univrail2_tunnels_bk_desert,               "gfx/split-spritesheets/8bpp/PURR-x1-8bpp_row01_col00.png") {tunnels_x1_8bpp(5)}	
 
-alternative_sprites(univrail2_tunnels_snow,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (4,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_desert,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (5,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay_snow,              ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4   (4,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay_desert,            ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4   (5,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk_snow,                  ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (4,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk_desert,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (5,"gfx/split-spritesheets/32bpp/PURR-x4_row00_col00.png")}
+alternative_sprites(univrail2_tunnels_snow,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (4,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_desert,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (5,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_tunnel_overlay_snow,              ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4   (4,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_tunnel_overlay_desert,            ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_overlay_x4   (5,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_bk_snow,                  ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (4,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_bk_desert,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnels_x4          (5,"gfx/split-spritesheets/32bpp/PURR-x4_row01_col00.png")}
 
-alternative_sprites(univrail2_tunnels_snow,                     ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (4,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_desert,                   ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (5,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay_snow,              ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1  (4,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay_desert,            ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1  (5,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk_snow,                  ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (4,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk_desert,                ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (5,"gfx/split-spritesheets/32bpp/PURR-x1_row00_col00.png")}
+alternative_sprites(univrail2_tunnels_snow,                     ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (4,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_desert,                   ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (5,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_tunnel_overlay_snow,              ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1  (4,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_tunnel_overlay_desert,            ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_overlay_x1  (5,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_bk_snow,                  ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (4,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_bk_desert,                ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnels_x1         (5,"gfx/split-spritesheets/32bpp/PURR-x1_row01_col00.png")}
 
-alternative_sprites(univrail2_tunnels_snow,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (4,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_desert,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (5,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay_snow,              ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4   (4,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnel_overlay_desert,            ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4   (5,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk_snow,                  ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (4,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
-alternative_sprites(univrail2_tunnels_bk_desert,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (5,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row00_col00.png")}
+alternative_sprites(univrail2_tunnels_snow,                     ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (4,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_desert,                   ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (5,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_tunnel_overlay_snow,              ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4   (4,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_tunnel_overlay_desert,            ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_overlay_x4   (5,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_bk_snow,                  ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (4,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
+alternative_sprites(univrail2_tunnels_bk_desert,                ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnels_x4          (5,"gfx/split-spritesheets/8bpp/PURR-x4-8bpp_row01_col00.png")}
 
 
+climate_variable = 0;
+if (param_grass_colour == 1 || (param_grass_colour == 0 && climate == CLIMATE_TEMPERATE)) {
+    climate_variable = 1;
+}
+if (param_grass_colour == 2 || (param_grass_colour == 0 && climate == CLIMATE_ARCTIC)) {
+    climate_variable = 2;
+}
+if (param_grass_colour == 3 || (param_grass_colour == 0 && climate == CLIMATE_TROPICAL)) {
+    climate_variable = 3;
+}
+if (param_grass_colour == 4 || (param_grass_colour == 0 && climate == CLIMATE_TOYLAND)) {
+    climate_variable = 4;
+}
+
+switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_grass_colour, climate_variable){
+    1: univrail2_TEMPERATE_tunnels;
+    2: univrail2_ARCTIC_tunnels;
+    3: univrail2_TROPIC_tunnels;
+    4: univrail2_TOYLAND_tunnels;
+    univrail2_TEMPERATE_tunnels;
+}
+switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_bk_grass_colour, climate_variable){
+    1: univrail2_TEMPERATE_tunnels_bk;
+    2: univrail2_ARCTIC_tunnels_bk;
+    3: univrail2_TROPIC_tunnels_bk;
+    4: univrail2_TOYLAND_tunnels_bk;
+    univrail2_TEMPERATE_tunnels_bk;
+}
+switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_overlay_grass_colour, climate_variable){
+    1: univrail2_TEMPERATE_tunnel_overlay;
+    2: univrail2_ARCTIC_tunnel_overlay;
+    3: univrail2_TROPIC_tunnel_overlay;
+    4: univrail2_TOYLAND_tunnel_overlay;
+    univrail2_TEMPERATE_tunnel_overlay;
+}
+
+snow_variable = 0;
+if (param_snow_colour == 1 || (param_snow_colour == 0 && climate == CLIMATE_ARCTIC)) {
+    snow_variable = 1;
+}
+if (param_snow_colour == 2 || (param_snow_colour == 0 && climate == CLIMATE_TROPICAL)) {
+    snow_variable = 2;
+}
+switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_snow_colour, snow_variable){
+    1: univrail2_tunnels_snow;
+    2: univrail2_tunnels_desert;
+    univrail2_tunnels_snow;
+}
+switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_bk_snow_colour, snow_variable){
+    1: univrail2_tunnels_bk_snow;
+    2: univrail2_tunnels_bk_desert;
+    univrail2_tunnels_bk_snow;
+}
+switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_overlay_snow_colour, snow_variable){
+    1: univrail2_tunnel_overlay_snow;
+    2: univrail2_tunnel_overlay_desert;
+    univrail2_tunnel_overlay_snow;
+}
 
 
 switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_switch_tile_type, terrain_type){
-  TILETYPE_DESERT: univrail2_tunnels_desert;
-  TILETYPE_SNOW:   univrail2_tunnels_snow;
-  univrail2_tunnels;
+  TILETYPE_DESERT: univrail2_tunnels_snow_colour;
+  TILETYPE_SNOW:   univrail2_tunnels_snow_colour;
+  univrail2_tunnels_grass_colour;
 }
 switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_bk_switch_tile_type, terrain_type){
-  TILETYPE_DESERT: univrail2_tunnels_bk_desert;
-  TILETYPE_SNOW:   univrail2_tunnels_bk_snow;
-  univrail2_tunnels_bk;
+  TILETYPE_DESERT: univrail2_tunnels_bk_snow_colour;
+  TILETYPE_SNOW:   univrail2_tunnels_bk_snow_colour;
+  univrail2_tunnels_bk_grass_colour;
 }
 switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_overlay_switch_tile_type, terrain_type){
-  TILETYPE_DESERT: univrail2_tunnel_overlay_desert;
-  TILETYPE_SNOW:   univrail2_tunnel_overlay_snow;
-  univrail2_tunnel_overlay;
+  TILETYPE_DESERT: univrail2_tunnels_overlay_snow_colour;
+  TILETYPE_SNOW:   univrail2_tunnels_overlay_snow_colour;
+  univrail2_tunnels_overlay_grass_colour;
 }
 
 
@@ -125,19 +223,17 @@ switch(FEAT_RAILTYPES, SELF, univrail2_bridge_overlay_switch, bridge_overlay_stu
   univrail2_bridge_surfaces_original;
 }
 
-//spriteset(univrail2_tunnel_shadow, "gfx/_univrail2.png") {tunnels(0)}	
-//spriteset(univrail2_tunnel_bk_shadow, "gfx/_univrail2.png") {tunnels(0)}	
-spriteset(univrail2_tunnel_shadow, "gfx/8bpp/PURR-tunnel-shadow-x1-8bpp.png") {tunnel_shadow_track_x1_8bpp(1)}	
-spriteset(univrail2_tunnel_bk_shadow, "gfx/8bpp/PURR-tunnel-shadow-x1-8bpp.png") {tunnel_shadow_track_x1_8bpp(1)}	
+spriteset(univrail2_tunnel_shadow, "gfx/8bpp/PURR-tunnel-shadow-x1-8bpp.png") {tunnel_shadow_track_x1_8bpp(0)}	
+spriteset(univrail2_tunnel_bk_shadow, "gfx/8bpp/PURR-tunnel-shadow-x1-8bpp.png") {tunnel_shadow_track_x1_8bpp(0)}	
 
-alternative_sprites(univrail2_tunnel_shadow,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_shadow_track_x4        (1,"gfx/32bpp/PURR-tunnel-shadow-x4.png")}
-alternative_sprites(univrail2_tunnel_bk_shadow,             ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_shadow_track_x4        (1,"gfx/32bpp/PURR-tunnel-shadow-x4.png")}
+alternative_sprites(univrail2_tunnel_shadow,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_shadow_track_x4        (0,"gfx/32bpp/PURR-tunnel-shadow-x4.png")}
+alternative_sprites(univrail2_tunnel_bk_shadow,             ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP){tunnel_shadow_track_x4        (0,"gfx/32bpp/PURR-tunnel-shadow-x4.png")}
 
-alternative_sprites(univrail2_tunnel_shadow,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_shadow_track_x4        (1,"gfx/8bpp/PURR-tunnel-shadow-x4-8bpp.png")}
-alternative_sprites(univrail2_tunnel_bk_shadow,             ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_shadow_track_x4        (1,"gfx/8bpp/PURR-tunnel-shadow-x4-8bpp.png")}
+alternative_sprites(univrail2_tunnel_shadow,                 ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_shadow_track_x4        (0,"gfx/8bpp/PURR-tunnel-shadow-x4-8bpp.png")}
+alternative_sprites(univrail2_tunnel_bk_shadow,             ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP){tunnel_shadow_track_x4        (0,"gfx/8bpp/PURR-tunnel-shadow-x4-8bpp.png")}
 
-alternative_sprites(univrail2_tunnel_shadow,                 ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_shadow_track_x1        (1,"gfx/32bpp/PURR-tunnel-shadow-x1.png")}
-alternative_sprites(univrail2_tunnel_bk_shadow,             ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_shadow_track_x1        (1,"gfx/32bpp/PURR-tunnel-shadow-x1.png")}
+alternative_sprites(univrail2_tunnel_shadow,                 ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_shadow_track_x1        (0,"gfx/32bpp/PURR-tunnel-shadow-x1.png")}
+alternative_sprites(univrail2_tunnel_bk_shadow,             ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP){tunnel_shadow_track_x1        (0,"gfx/32bpp/PURR-tunnel-shadow-x1.png")}
 
 switch(FEAT_RAILTYPES, SELF, univrail2_tunnels_shadow_switch, tunnel_stuff1) {
     1: univrail2_tunnel_bk_shadow;
