@@ -192,22 +192,6 @@ railtypetable {
 
 //#include src-includes/_signals.nml
 
-/*
-bridge_overlay_stuff = 0;
-
-if (grf_future_status("\53\5A\05\01")) {
-	bridge_overlay_stuff = 1;
-}
-if (grf_future_status("\74\67\74\62")) {
-	bridge_overlay_stuff = 1;
-}
-
-tunnel_stuff = 0;
-if (grf_future_status("\42\4B\54\62")) {
-	tunnel_stuff = 1;
-}
-*/
-
 //RAILTYPES
 //#include src-includes/railtype_original.nml
 
