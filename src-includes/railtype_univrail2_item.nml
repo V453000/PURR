@@ -1,0 +1,59 @@
+item (FEAT_RAILTYPES, univrail2, 7){
+property{
+label: 							"UNI2";
+introduction_date:				date(param_intro_date_2,01,01);
+speed_limit:              param_speed_limit_2 km/h;
+name: 							string(STR_UNI2);
+toolbar_caption:				string(STR_UNI2);
+menu_text:						string(STR_UNI2);
+build_window_caption:			string(STR_UNI2);
+autoreplace_text:				string(STR_UNI2);
+new_engine_text:				string(STR_UNI2);
+compatible_railtype_list:		["UNIV", "RAIL", "ELRL", "MONO", "MGLV", "WETR", "UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+powered_railtype_list: 			["UNIV", "RAIL", "ELRL", "MONO", "MGLV", "WETR", "UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+curve_speed_multiplier:			0;
+sort_order: 201;
+construction_cost: param_const_cost_2;
+station_graphics:	 RAILTYPE_STATION_MAGLEV;
+}
+graphics{
+track_overlay: univrail2_overlays;
+underlay: univrail2_underlays;
+
+bridge_surfaces: univrail2_bridge_overlay_switch;
+level_crossings: univrail2_road_crossing;
+
+}
+}
+
+if (param_tunnels == 1) {
+  item (FEAT_RAILTYPES, univrail2, 7){
+    graphics{
+      tunnel_overlay: univrail2_tunnels_overlay_switch_tile_type;
+    }
+  }
+}
+
+
+if (param_tunnels == 0) {
+  item (FEAT_RAILTYPES, univrail2, 7){
+    graphics{
+      tunnels: univrail2_tunnels_shadow_switch;
+    }
+  }
+} else {
+  item (FEAT_RAILTYPES, univrail2, 7){
+    graphics{
+      tunnels: univrail2_tunnels_switch;
+    }
+  }
+}
+
+
+if (param_signals == 1) {
+  item (FEAT_RAILTYPES, univrail2, 7){
+    graphics{
+    signals: signal_switch;
+    }
+  }
+}

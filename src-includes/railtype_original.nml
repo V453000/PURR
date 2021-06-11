@@ -1,0 +1,103 @@
+item (FEAT_RAILTYPES, rail, 1){
+  property{
+  label: 							"RAIL";
+  introduction_date:				date(1920,01,01);
+  name: 							string(STR_RAIL);
+  toolbar_caption:				string(STR_RAIL);
+  menu_text:						string(STR_RAIL);
+  build_window_caption:			string(STR_RAIL);
+  autoreplace_text:				string(STR_RAIL);
+  new_engine_text:				string(STR_RAIL);
+  compatible_railtype_list:		["UNIV", "RAIL", "ELRL","UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  powered_railtype_list: 			["UNIV","UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  /*curve_speed_multiplier:			1;
+  station_graphics:				RAILTYPE_STATION_NORMAL;
+  speed_limit:					0km/h;
+  acceleration_model:				ACC_MODEL_RAIL;*/
+  sort_order: 07;
+  }
+}
+if (param_signals == 1) {
+  item (FEAT_RAILTYPES, rail, 1){
+    graphics{
+    signals: signal_switch;
+    }
+  }
+}
+
+item (FEAT_RAILTYPES, elrl, 2){
+  property{
+  label: 							"ELRL";
+  introduction_date:				date(1920,01,01);
+  name: 							string(STR_ELRL);
+  toolbar_caption:				string(STR_ELRL);
+  menu_text:						string(STR_ELRL);
+  build_window_caption:			string(STR_ELRL);
+  autoreplace_text:				string(STR_ELRL);
+  new_engine_text:				string(STR_ELRL);
+  compatible_railtype_list:		["UNIV", "RAIL", "ELRL","UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  powered_railtype_list: 			["UNIV", "ELRL","UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  /*curve_speed_multiplier:			1;
+  station_graphics:				RAILTYPE_STATION_NORMAL;
+  speed_limit:					0km/h;
+  acceleration_model:				ACC_MODEL_RAIL;*/
+  sort_order: 17;
+  }
+}
+if (param_signals == 1) {
+  item (FEAT_RAILTYPES, elrl, 2){
+    graphics{
+    signals: signal_switch;
+    }
+  }
+}
+
+
+item (FEAT_RAILTYPES, mono, 3){
+  property{
+  label: 							"MONO";
+  introduction_date:				date(1987,01,01);
+  name: 							string(STR_MONO);
+  toolbar_caption:				string(STR_MONO);
+  menu_text:						string(STR_MONO);
+  build_window_caption:			string(STR_MONO);
+  autoreplace_text:				string(STR_MONO);
+  new_engine_text:				string(STR_MONO);
+  compatible_railtype_list:		["UNIV", "MONO","UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  powered_railtype_list: 			["UNIV", "MONO","UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  /*station_graphics:				RAILTYPE_STATION_MONORAIL;
+  speed_limit:					0km/h;
+  acceleration_model:				ACC_MODEL_RAIL;*/
+  sort_order: 27;
+  }
+}
+if (param_signals == 1) {
+  item (FEAT_RAILTYPES, mono, 3){
+    graphics{
+    signals: signal_switch;
+    }
+  }
+}
+
+item (FEAT_RAILTYPES, mglv, 4){
+  property{
+  label: 							"MGLV";
+  introduction_date:				date(1997,01,01);
+  name: 							string(STR_MGLV);
+  toolbar_caption:				string(STR_MGLV);
+  menu_text:						string(STR_MGLV);
+  build_window_caption:			string(STR_MGLV);
+  autoreplace_text:				string(STR_MGLV);
+  new_engine_text:				string(STR_MGLV);
+  compatible_railtype_list:		["UNIV", "MGLV","UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  powered_railtype_list: 			["UNIV", "MGLV", "UNI1", "UNI2","UNI3","UNI4","UNI5","UNI6","UNI7","UNI8"];
+  sort_order: 37;
+  }
+}
+if (param_signals == 1) {
+  item (FEAT_RAILTYPES, mglv, 4){
+    graphics{
+    signals: signal_switch;
+    }
+  }
+}

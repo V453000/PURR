@@ -1,0 +1,52 @@
+spriteset(signals_block_green, 	"gfx/_signals.png") {signals(300,0)}	
+spriteset(signals_block_red, 	"gfx/_signals.png") {signals(300,1)}	
+spriteset(signals_entry_green, 	"gfx/_signals.png") {signals(300,2)}	
+spriteset(signals_entry_red, 	"gfx/_signals.png") {signals(300,3)}	
+spriteset(signals_exit_green, 	"gfx/_signals.png") {signals(300,4)}	
+spriteset(signals_exit_red, 	"gfx/_signals.png") {signals(300,5)}	
+spriteset(signals_combo_green, 	"gfx/_signals.png") {signals(300,6)}	
+spriteset(signals_combo_red, 	"gfx/_signals.png") {signals(300,7)}	
+spriteset(signals_2wayPBS_green, "gfx/_signals.png") {signals(300,8)}	
+spriteset(signals_2wayPBS_red, 	"gfx/_signals.png") {signals(300,9)}	
+spriteset(signals_1wayPBS_green, "gfx/_signals.png") {signals(300,10)}	
+spriteset(signals_1wayPBS_red, 	"gfx/_signals.png") {signals(300,11)}	
+
+switch(FEAT_RAILTYPES, SELF, signal_switch_block, (extra_callback_info2 & 0x000000FF)) {
+	0: signals_block_red;
+	1: signals_block_green;
+}
+switch(FEAT_RAILTYPES, SELF, signal_switch_entry, (extra_callback_info2 & 0x000000FF)) {
+	0: signals_entry_red;
+	1: signals_entry_green;
+}
+switch(FEAT_RAILTYPES, SELF, signal_switch_exit, (extra_callback_info2 & 0x000000FF)) {
+	0: signals_exit_red;
+	1: signals_exit_green;
+}
+switch(FEAT_RAILTYPES, SELF, signal_switch_combo, (extra_callback_info2 & 0x000000FF)) {
+	0: signals_combo_red;
+	1: signals_combo_green;
+}
+switch(FEAT_RAILTYPES, SELF, signal_switch_2wayPBS, (extra_callback_info2 & 0x000000FF)) {
+	0: signals_2wayPBS_red;
+	1: signals_2wayPBS_green;
+}
+switch(FEAT_RAILTYPES, SELF, signal_switch_1wayPBS, (extra_callback_info2 & 0x000000FF)) {
+	0: signals_1wayPBS_red;
+	1: signals_1wayPBS_green;
+}
+
+switch(FEAT_RAILTYPES, SELF, signal_switch_type, (extra_callback_info2 & 0x00FF0000) >> 16) {
+	0: signal_switch_block;
+	1: signal_switch_entry;
+	2: signal_switch_exit;
+	3: signal_switch_combo;
+	4: signal_switch_2wayPBS;
+	5: signal_switch_1wayPBS;
+}
+
+
+
+switch(FEAT_RAILTYPES, SELF, signal_switch, (extra_callback_info2 & 0x0000FF00) >> 8) {
+	1: signal_switch_type; //semaphore
+}
