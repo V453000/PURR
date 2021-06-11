@@ -1,3 +1,13 @@
+0.0.7
+- tunnel terrain graphics now match BRIX 0.0.3
+- added parameter to change grass colour (like in BRIX)
+- added parameter to swap snow / desert (like in BRIX)
+
+0.0.6
+- added parameters for adjusting speed limits
+- added parameters for adjusting introduction dates
+- added parameters for adjusting construction costs
+
 0.0.5
 - fixes to 8bpp mode of PURR, made it look like the new tracks from version 0.0.4
 
